@@ -7,6 +7,6 @@ async function server() {
   app.useGlobalPipes(new ValidationPipe());
   const PORT = process.env.PORT || 3000;
   await app.listen(PORT);
-  console.log(`Serverr is running on http://localhost:${PORT}`);
+  console.log(`Server is runninng on http://localhost:${PORT}`);
 }
 server();
